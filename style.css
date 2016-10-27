@@ -1,0 +1,13 @@
+/*
+Theme Name: Bombi Music
+Description: Bombi Music responsive theme
+Version: 1
+Author's: Tristan van der Linden, Leroy Manshande, Nino Schellingerhout, Daniek de Boer, Thomas Stevens
+*/
+
+
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
+@import url('css/reset.scss');
+@import url('css/header.scss');
+@import url('css/footer.scss');
