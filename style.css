@@ -10,4 +10,6 @@ Author's: Tristan van der Linden, Leroy Manshande, Nino Schellingerhout, Daniek 
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
 @import url('css/reset.scss');
 @import url('css/header.scss');
+@import url('css/about.css');
+@import url('css/lessen.css');
 @import url('css/footer.scss');
