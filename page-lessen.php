@@ -10,7 +10,7 @@ get_header();
 
 <!-- Custom Fonts -->
 <img class="headerimage" src="<?php echo get_bloginfo('template_url') ?>/images/headerimage.jpg"/>
-<div class="container ">
+<div class="container-fluid">
     <div class="achtergrondtekst">
         <h1 class="lessen">Lessen</h1>
         <p class="lessentekst paddingtekst">Wat ben ik blij dat ik van jongs af aan met muziek bezig ben geweest. En wat
@@ -35,8 +35,9 @@ get_header();
             blijft.
         </p>
     </div>
-
-    <div class="row wrapper_pics_music achtergrond">
+</div>
+<div class="container-fluid achtergrond ">
+    <div class="row wrapper_pics_music ">
         <div class="col-sm-4">
             <img class="muziek" src="<?php echo get_bloginfo('template_url') ?>/images/piano.jpg"/>
             <h3 class="kopjeslessen">Piano</h3>

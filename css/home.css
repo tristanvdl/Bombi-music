@@ -1,0 +1,133 @@
+.fullscreenimage {
+    width: 100%;
+    height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+    background-image: url(../images/fullscreen3.jpg)
+}
+
+.kopje-irene {
+    font-family: "Bebasneue", sans-serif;
+    font-size: 5.5em;
+    color: white;
+    text-shadow:  2px 2px #000000;
+}
+
+.plaatsingtekst {
+    float: right;
+    padding: 140px 110px 80px 80px;
+}
+
+.ondertekst {
+    font-family: "UniverseCondensedLight", sans-serif;
+    font-size: 2em;
+    color: white;
+    text-shadow:  2px 2px #000000;
+    margin-top: 0.3em;
+    
+}
+
+.lessenknop {
+    font-family: "Bebasneue", sans-serif;
+    margin-top: 1.2em;
+    padding: 6px 30px 6px 30px;
+    border: 3px solid white;
+    background: none;
+    color: white;
+    font-size:1.5em ;
+}
+
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+.icons {
+    margin-bottom: 20px;
+    
+}
+
+a { 
+   text-decoration: none;
+}
+ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+.container {
+   margin: 0 auto;
+   padding: 20px 50px;
+   background: white;
+}
+#sticky-social {
+   left: 0;
+   position: fixed;
+   top: 150px;
+}
+#sticky-social a {
+   background: #333;
+   color: #3a2e3d;
+   display: block;
+   height: 45px;
+   font: 16px "Open Sans", sans-serif;
+   line-height: 45px;
+   position: relative;
+   text-align: center;
+   width: 45px;
+    
+}
+#sticky-social a span {
+   line-height: 45px;
+   left: -120px;
+   position: absolute;
+   text-align:center;
+   width:120px;
+}
+#sticky-social a:hover span {
+   left: 100%;
+}
+#sticky-social a[class*="facebook"],
+#sticky-social a[class*="facebook"]:hover,
+#sticky-social a[class*="facebook"] span { background: #fff; }
+
+#sticky-social a[class*="twitter"],
+#sticky-social a[class*="twitter"]:hover,
+#sticky-social a[class*="twitter"] span { background: #3a2e3d; }
+
+#sticky-social a[class*="gplus"],
+#sticky-social a[class*="gplus"]:hover,
+#sticky-social a[class*="gplus"] span { background: #3a2e3d; }  
+
+#sticky-social a[class*="linkedin"],
+#sticky-social a[class*="linkedin"]:hover,
+#sticky-social a[class*="linkedin"] span { background: #fff; }  
+
+#sticky-social a[class*="instagrem"],
+#sticky-social a[class*="instagrem"]:hover,
+#sticky-social a[class*="instagrem"] span { background: #fff; }  
+
+#sticky-social a[class*="stumbleupon"],
+#sticky-social a[class*="stumbleupon"]:hover,
+#sticky-social a[class*="stumbleupon"] span { background: #3a2e3d; }  
+
+#sticky-social a[class*="pinterest"],
+#sticky-social a[class*="pinterest"]:hover,
+#sticky-social a[class*="pinterest"] span { background: #3a2e3d; }  
+
+#sticky-social a[class*="flickr"],
+#sticky-social a[class*="flickr"]:hover,
+#sticky-social a[class*="flickr"] span { background: #3a2e3d; }  
+
+#sticky-social a[class*="tumblr"],
+#sticky-social a[class*="tumblr"]:hover,
+#sticky-social a[class*="tumblr"] span { background: #3a2e3d; }
+
+
+
+
+

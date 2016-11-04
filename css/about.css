@@ -2,16 +2,6 @@ body {
 	background-color: white;
 }
 
-@font-face {
-	font-family: BebasNeue;
-	src: url(../fonts/BebasNeue.otf);
-}
-
-@font-face {
-	font-family: UniverseLight;
-	src: url(../fonts/UniverseLight.ttf);
-}
-
 /*h2 {
 	font-size: 40px;
 	color: black;
@@ -22,18 +12,18 @@ body {
 .Overmij {
 	font-size: 40px;
 	color: black;
-	font-family: 'BebasNeue', sans-serif;
+	font-family: 'BebasNeue';
 
 }
 
 .text_about {
-	font-size: 1.3em;
+	font-size: 2em;
 }
 
 .tekst1 {
 
 	padding-top: 40px;
-	font-family: 'UniverseLight', sans-serif;
+	font-family: 'UniverseLight';
 }
 
 .foto {
@@ -55,6 +45,10 @@ body {
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
 
+.full_wrapper {
+	margin: 0 auto;
+	width: 80vw;
 }
 

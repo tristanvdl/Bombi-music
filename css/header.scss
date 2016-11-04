@@ -1,0 +1,45 @@
+
+
+.navbar-nav {
+  font-family: "UniverseLight";
+  font-weight: bold;
+  float: right;
+  font-size: 1.2em;
+  margin-top: 23px;
+  margin-right: 100px;
+
+}
+
+.navbar {
+  height: 100px;
+  background-color: white;
+  border-bottom: 2px solid black;
+  margin-bottom: 0px!important;
+}
+
+.navbar-nav li a {
+  color: black!important;
+}
+
+.logo img {
+  width: 160px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-nav {
+    font-size: 2em;
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .logo img {
+    width: 70px;
+    margin-top: -6px;
+  }
+  .navbar {
+  height: auto;
+  }
+  .navbar-nav {
+    float: left;
+  }
+}

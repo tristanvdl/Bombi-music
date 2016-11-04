@@ -1,36 +1,15 @@
-@font-face {
-    font-family: UniverseCondensed;
-    src: url(../fonts/39335_UniversCondensed.ttf);
-}
-
-@font-face {
-    font-family: UniverseCondensedLight;
-    src: url(../fonts/UniverseCondensedLight.ttf);
-}
-
-@font-face {
-    font-family: Bebasneue;
-    src: url(../fonts/BebasNeue.otf);
-}
-
 .lessen {
-    font-family: "Bebasneue", sans-serif;
+    font-family: "Bebasneue";
     font-size: 2.35em;
-    padding-left: 3em;
     padding-top: 1.5em;
     padding-bottom: 0.3em;
 }
 
-.paddingtekst {
-    padding: 1em;
-}
 
 .lessentekst {
     width: 100%;
-    padding-left: 10px;
-    padding-right: 7em;
     font-size: 1.5em;
-    font-family: "UniverseCondensedLight", sans-serif;
+    font-family: "UniverseLight";
     padding-bottom: 3.5em;
 }
 
@@ -38,6 +17,8 @@
     background-color: white;
     padding-top: 2em ;
     padding-bottom: 2em;
+    margin: 0 auto;
+    width: 80vw;
 }
 
 .headerimage {
@@ -52,6 +33,7 @@
     width: 70%;
     border: 3px solid white;
     margin-top: 2em;
+    font-size: 2em;
 }
 
 .muziek1 {
@@ -86,12 +68,13 @@
 
 .achtergrond {
     background-color: #79717b;
+    padding: 0px;
     
 }
 
 .kopjeslessen {
     padding-top: 1em;
-    font-family: "Bebasneue", sans-serif;
+    font-family: "Bebasneue";
     font-size: 2em;
     color: white;
 
@@ -99,7 +82,7 @@
 
 .tekstlessen {
     color: white;
-    font-family: "UniverseCondensed", sans-serif;
+    font-family: "UniverseLight";
     padding-bottom: 4em;
     
 }

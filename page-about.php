@@ -7,7 +7,7 @@
  */
 get_header();
 ?>
-    <div class="container">
+    <div class="container-fluid full_wrapper">
         <div class="row wrapper_about_text">
             <div class="col-md-6 text_about">
                 <h2 class="Overmij">OVER MIJ</h2>
